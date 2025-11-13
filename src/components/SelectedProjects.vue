@@ -17,7 +17,8 @@
             <div class="absolute flex flex-col gap-3 rounded-xl bottom-2 left-2 max-w-[300px] p-8 bg-[#f6f6f6]">
                 <div class="w-2 h-2 rounded-full bg-black absolute right-2 top-2"></div>
                 <span class="font-bold text-lg">Izonay Commercial</span>
-                <p class="text-gray-700">İzOnay is an electronic signature platform that streamlines document signing.</p>
+                <p class="text-gray-700">İzOnay is an electronic signature platform that streamlines document signing.
+                </p>
                 <p class="text-gray-700">Designed in Figma and written with React.</p>
             </div>
         </div>
@@ -36,11 +37,12 @@
             <div class="absolute flex flex-col gap-3 rounded-xl bottom-2 left-2 max-w-[300px] p-8 bg-[#f6f6f6]">
                 <div class="w-2 h-2 rounded-full bg-black absolute right-2 top-2"></div>
                 <span class="font-bold text-lg">Izometri Company Website</span>
-                <p class="text-gray-700">İzometri Bilişim is a software development company based in Istanbul, Turkey.</p>
+                <p class="text-gray-700">İzometri Bilişim is a software development company based in Istanbul, Turkey.
+                </p>
                 <p class="text-gray-700">Designed in Figma and written with Vue.</p>
             </div>
         </div>
-        <div v-motion-visible-fade
+        <!-- <div v-motion-visible-fade
             class="w-4/5 love max-w-[1500px] h-[400px] rounded-xl bg-red-400 relative hover:shadow-xl transition duration-100">
             <div class="arrow absolute top-2 right-2">
                 <a href="https://yigityurtseven.github.io/love-test/" target="_blank">
@@ -58,7 +60,7 @@
                 <p class="text-gray-700">A simple love test that calcuates love percentage of given two names.</p>
                 <p class="text-gray-700">Written with Vue.</p>
             </div>
-        </div>
+        </div> -->
         <div v-motion-visible-fade
             class="w-4/5 spotify max-w-[1500px] h-[400px] rounded-xl bg-red-400 relative hover:shadow-xl transition duration-100">
             <div class="arrow absolute top-2 right-2">
@@ -74,7 +76,8 @@
             <div class="absolute flex flex-col gap-3 rounded-xl bottom-2 left-2 max-w-[300px] p-8 bg-[#f6f6f6]">
                 <div class="w-2 h-2 rounded-full bg-black absolute right-2 top-2"></div>
                 <span class="font-bold text-lg">Spotify API UI</span>
-                <p class="text-gray-700">An application that displays artist, playlist, album and Spotify user information
+                <p class="text-gray-700">An application that displays artist, playlist, album and Spotify user
+                    information
                     with Spotify API.</p>
                 <p class="text-gray-700">Written with Vue and TypeScript.</p>
             </div>
@@ -94,7 +97,8 @@
             <div class="absolute flex flex-col gap-3 rounded-xl bottom-2 left-2 max-w-[300px] p-8 bg-[#f6f6f6]">
                 <div class="w-2 h-2 rounded-full bg-black absolute right-2 top-2"></div>
                 <span class="font-bold text-lg">Rick and Morty API UI</span>
-                <p class="text-gray-700">An application that shows Rick and Morty characters and related info about them.
+                <p class="text-gray-700">An application that shows Rick and Morty characters and related info about
+                    them.
                 </p>
                 <p class="text-gray-700">Written with Vue.</p>
             </div>
