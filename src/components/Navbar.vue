@@ -1,15 +1,14 @@
 <template>
-    <nav class="w-screen fixed bottom-0 flex flex-row items-center justify-center p-5 z-30">
+    <nav class="w-screen fixed bottom-0 flex flex-row items-center justify-center pb-6 z-30">
         <Transition @before-enter="beforeEnter" @enter="enter" :css="false">
             <div v-if="showNavbar"
-                class="navbar-container w-1/3 max-w-[1920px] min-w-fit flex flex-row flex-wrap items-center justify-around gap-2  shadow-lg
-                        px-3 py-3 bg-black/10 dark:bg-white/10 backdrop-filter backdrop-blur-xl text-neutral-800 dark:text-neutral-100 rounded-full drop-shadow-2xl">
+                class="flex flex-row items-center justify-around gap-2 shadow-lg bg-white/10 backdrop-filter backdrop-blur-xl text-neutral-200  rounded-full drop-shadow-2xl">
                 <a href="#about"
-                    class="nav-link transition duration-200 ease-in-out rounded-full py-2 px-4 hover:bg-white/40 dark:hover:bg-black/20">about</a>
+                    class="nav-link transition duration-200 ease-in-out rounded-full py-2 px-6 hover:bg-white/40 ">about</a>
                 <a href="#projects"
-                    class="nav-link transition duration-200 ease-in-out rounded-full py-2 px-4 hover:bg-white/40 dark:hover:bg-black/20">projects</a>
+                    class="nav-link transition duration-200 ease-in-out rounded-full py-2 px-6 hover:bg-white/40 ">projects</a>
                 <a href="#contact"
-                    class="nav-link transition duration-200 ease-in-out rounded-full py-2 px-4 hover:bg-white/40 dark:hover:bg-black/20">contact</a>
+                    class="nav-link transition duration-200 ease-in-out rounded-full py-2 px-6 hover:bg-white/40 ">contact</a>
             </div>
         </Transition>
     </nav>

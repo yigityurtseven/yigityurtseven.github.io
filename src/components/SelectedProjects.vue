@@ -1,7 +1,7 @@
 <template>
     <section class="flex flex-col gap-20 items-center justify-center">
         <div v-motion-visible-fade class="text-5xl font-light"><span
-                class="italic text-stone-500 dark:text-sky-200">Projects</span></div>
+                class="italic text-stone-500 text-sky-200">Projects</span></div>
         <div v-motion-visible-fade
             class="w-4/5 izonay max-w-[1500px] h-[400px] rounded-xl bg-red-400 relative hover:shadow-xl transition duration-100">
             <div class="arrow absolute top-2 right-2">
