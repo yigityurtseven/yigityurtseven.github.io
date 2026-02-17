@@ -3,32 +3,30 @@ import { ref, computed, watch, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import ProjectModal from './ProjectModal.vue'
 
+import signImg from '../assets/sign.jpg'
+import izometriImg from '../assets/izometri.jpg'
+import spotifyImg from '../assets/spotify.jpeg'
+import rickandmortyImg from '../assets/rickandmorty.jpeg'
+import swipeosImg from '../assets/swipeos.png'
+
 const route = useRoute()
 const router = useRouter()
 
 const projects = ref([
   {
-    slug: 'izonay',
-    title: 'Izonay Commercial',
-    description: 'İzOnay is an electronic signature platform that streamlines document signing.',
-    tech: 'Designed in Figma and written with React.',
-    image: '/src/assets/sign.jpg',
-    link: 'https://www.izonay.com',
-  },
-  {
-    slug: 'izometri',
-    title: 'Izometri Company Website',
-    description: 'İzometri Bilişim is a software development company based in Istanbul, Turkey.',
-    tech: 'Designed in Figma and written with Vue.',
-    image: '/src/assets/izometri.jpg',
-    link: 'https://www.izometri.com.tr',
+    slug: 'swipeos',
+    title: 'SwipeOS',
+    description: 'An iOS app to clean your photo library. Swipe left to delete, right to keep.',
+    tech: 'Built with Swift and SwiftUI.',
+    image: swipeosImg,
+    link: 'https://yigityurtseven.github.io/swipeos/',
   },
   {
     slug: 'spotify-api',
     title: 'Spotify API UI',
     description: 'An application that displays artist, playlist, album and Spotify user information with Spotify API.',
     tech: 'Written with Vue and TypeScript.',
-    image: '/src/assets/spotify.jpeg',
+    image: spotifyImg,
     link: 'https://yigityurtseven.github.io/spotify-api-ui/',
   },
   {
@@ -36,8 +34,24 @@ const projects = ref([
     title: 'Rick and Morty API UI',
     description: 'An application that shows Rick and Morty characters and related info about them.',
     tech: 'Written with Vue.',
-    image: '/src/assets/rickandmorty.jpeg',
+    image: rickandmortyImg,
     link: 'https://yigityurtseven.github.io/rick-and-morty/',
+  },
+  {
+    slug: 'izonay',
+    title: 'Izonay Commercial',
+    description: 'İzOnay is an electronic signature platform that streamlines document signing.',
+    tech: 'Designed in Figma and written with React.',
+    image: signImg,
+    link: 'https://www.izonay.com',
+  },
+  {
+    slug: 'izometri',
+    title: 'Izometri Company Website',
+    description: 'İzometri Bilişim is a software development company based in Istanbul, Turkey.',
+    tech: 'Designed in Figma and written with Vue.',
+    image: izometriImg,
+    link: 'https://www.izometri.com.tr',
   },
 ])
 
