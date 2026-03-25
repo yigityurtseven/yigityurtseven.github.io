@@ -61,7 +61,7 @@
                 <p class="text-gray-700">Written with Vue.</p>
             </div>
         </div> -->
-        <div v-motion-visible-fade
+        <!-- <div v-motion-visible-fade
             class="w-4/5 spotify max-w-[1500px] h-[400px] rounded-xl bg-red-400 relative hover:shadow-xl transition duration-100">
             <div class="arrow absolute top-2 right-2">
                 <a href="https://yigityurtseven.github.io/spotify-api-ui/" target="_blank">
@@ -81,7 +81,7 @@
                     with Spotify API.</p>
                 <p class="text-gray-700">Written with Vue and TypeScript.</p>
             </div>
-        </div>
+        </div> -->
         <div v-motion-visible-fade
             class="w-4/5 rick-and-morty max-w-[1500px] h-[400px] rounded-xl bg-red-400 relative hover:shadow-xl transition duration-100">
             <div class="arrow absolute top-2 right-2">

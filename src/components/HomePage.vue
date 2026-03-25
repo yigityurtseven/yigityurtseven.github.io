@@ -5,7 +5,7 @@ import ProjectModal from './ProjectModal.vue'
 
 import signImg from '../assets/sign.jpg'
 import izometriImg from '../assets/izometri.jpg'
-import spotifyImg from '../assets/spotify.jpeg'
+// import spotifyImg from '../assets/spotify.jpeg'
 import rickandmortyImg from '../assets/rickandmorty.jpeg'
 import swipeosImg from '../assets/swipeos.png'
 
@@ -21,14 +21,14 @@ const projects = ref([
     image: swipeosImg,
     link: 'https://yigityurtseven.github.io/swipeos/',
   },
-  {
-    slug: 'spotify-api',
-    title: 'Spotify API UI',
-    description: 'An application that displays artist, playlist, album and Spotify user information with Spotify API.',
-    tech: 'Written with Vue and TypeScript.',
-    image: spotifyImg,
-    link: 'https://yigityurtseven.github.io/spotify-api-ui/',
-  },
+  // {
+  //   slug: 'spotify-api',
+  //   title: 'Spotify API UI',
+  //   description: 'An application that displays artist, playlist, album and Spotify user information with Spotify API.',
+  //   tech: 'Written with Vue and TypeScript.',
+  //   image: spotifyImg,
+  //   link: 'https://yigityurtseven.github.io/spotify-api-ui/',
+  // },
   {
     slug: 'rick-and-morty',
     title: 'Rick and Morty API UI',
@@ -97,7 +97,7 @@ function scrollProjects(direction) {
         </h1>
         <p class="hero-position" v-motion :initial="{ opacity: 0, y: 20 }"
           :enter="{ opacity: 1, y: 0, transition: { duration: 800, delay: 600 } }">
-          Software Enginner & UI/UX Designer
+          Software Engineer & UI/UX Designer
         </p>
         <div class="hero-buttons" v-motion :initial="{ opacity: 0, y: 20 }"
           :enter="{ opacity: 1, y: 0, transition: { duration: 800, delay: 900 } }">
